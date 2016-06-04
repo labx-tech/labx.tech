@@ -1,0 +1,35 @@
+{
+  "name": "labx.tech",
+  "version": "1.0.0",
+  "description": "LabX",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyetdev/labx.tech.git"
+  },
+  "keywords": [
+    "labx",
+    "react",
+    "webpack",
+    "redux",
+    "nodejs"
+  ],
+  "author": "Van-Duyet Le <me@duyetdev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duyetdev/labx.tech/issues"
+  },
+  "homepage": "https://github.com/duyetdev/labx.tech#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1"
+  }
+}
